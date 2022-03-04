@@ -1,0 +1,49 @@
+:root {
+    --main-color1:#533E85;
+    /* --main-color1:#5b458d; */
+    --main-color2:#488FB1;
+    --main-color3:#4FD3C4;
+    --main-color4:#C1F8CF;
+}
+
+body {
+    background-color: var(--main-color1);
+    color: var(--main-color4);
+    /* font-family: Inter, Tahoma, sans-serif; */
+    font-family: "Chalkboard SE", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+hr {
+    border: 0.1% inset #211836;
+    border-color: #211836;
+}
+
+div .wrapper {
+    /* width: fit-content; */
+}
+
+.header {
+    margin: 20px;
+}
+
+
+h1 {
+    margin: auto;
+    font-size: 250%;
+    font-weight: bolder;
+}
+
+.topLogoGroup {
+    white-space: nowrap;
+    margin: 2%;
+}
+.topLogoGroup .logo {
+    width: 20%;
+}
+.topLogoGroup .slogan {
+    width: 20%;
+    margin-top: 1%;
+}
