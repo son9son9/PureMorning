@@ -1,5 +1,5 @@
 :root {
-    --main-color1:#533E85;
+    --main-color1:#36265a;
     /* --main-color1:#5b458d; */
     --main-color2:#488FB1;
     --main-color3:#4FD3C4;
@@ -46,4 +46,8 @@ h1 {
 .topLogoGroup .slogan {
     width: 20%;
     margin-top: 1%;
+}
+
+select {
+    width: 4vh;
 }
