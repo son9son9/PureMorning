@@ -4,18 +4,29 @@ const hour = document.querySelector("#hour");
 const minute = document.querySelector("#minute");
 const second = document.querySelector("#second");
 
+// 메인 로고 클릭 시 홈화면으로 이동
 topLogo.addEventListener(onclick, function() {
     location.href = mainPage;
     alert("test");
 });
 
-hour.append = 
-function setOption(num) {
-    let content = "<option value=''></option>";
-
-    for (let i=1; i++; i<=num) {
-        // 여기서부터 다시
+function setOptionHour() {
+    let option = document.createElement("option");
+    for (let i=1; i++; i<=12) {
+        option.text = i;
+        option.value = i;
+        hour.options.add(option);
     }
-
-    return content;
 };
+
+function setOptionMinute() {
+    for (let i=1; i++; i<=60) {
+        let option = document.createElement("option");
+        option.text = i;
+        option.value = i;
+        minute.options.add(option);
+    }
+};
+// hour, minute 셀렉트 옵션 추가
+// setOptionHour();
+// setOptionMinute();
